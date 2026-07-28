@@ -1,6 +1,6 @@
 # Full Stack Development Course 
 
-A concise, hands-on guide covering the MERN stack—from dynamic front-end interfaces to robust server-side architectures.
+This repo contain the college FSA_I project which is prepare by the backend & fronted language.
 
 ---
 
