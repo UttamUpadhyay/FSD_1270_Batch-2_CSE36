@@ -9,7 +9,8 @@ function App() {
       </h1>
       <h1>{10 + 20 + 30 + 40}</h1>
       <h1>{x + y }</h1>
-      <button onclick = {() => alert("Hello")}> Click Me</button>
+      <button onClick={() => alert("Hello")}>click me</button>
+      
     </>
   )
 }
