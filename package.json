@@ -1,0 +1,21 @@
+{
+  "name": "full_stack_development_i",
+  "version": "1.0.0",
+  "description": "This repo contain the college FSA_I project which is prepare by the backend & fronted language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UttamUpadhyay/Full_Stack_Development_I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UttamUpadhyay/Full_Stack_Development_I/issues"
+  },
+  "homepage": "https://github.com/UttamUpadhyay/Full_Stack_Development_I#readme"
+}
