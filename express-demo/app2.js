@@ -1,0 +1,20 @@
+const EventEmitter = require("events");
+
+const user = new EventEmitter();
+
+user.on("login", (username) => {
+    console.log(username + " has logged in.");
+});
+
+user.on("login", (username) => {
+    console.log("Welcome " + username + "!");
+});
+
+user.on("logout", (username) => {
+    console.log(username + " has logged out.");
+});
+
+user.emit("login","Rahul");
+user.emit("logout","Rahul");
+
+user.emit("exit");
