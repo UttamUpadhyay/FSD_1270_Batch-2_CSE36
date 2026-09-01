@@ -6,3 +6,5 @@ fs.writeFile("student.txt", "Hello Students!", (err) => {
     }
     console.log("File created Successfully!");
 });
+
+const fs = require("fs");
