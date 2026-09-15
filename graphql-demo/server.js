@@ -18,3 +18,38 @@ const schema = buildSchema(`
     age: Int
   }
 `);
+
+//DATA
+const studentData = {
+    id : "101",
+    name : "Rahul",
+    course : "B.tech CSE",
+    age : 20
+};
+
+//Resolver Functions
+const root = {
+    hello: () => {
+        return "Hello From GraphQl !"
+    },
+    student: () => {
+        return studentData;
+    }
+};
+
+//Graphql endpoint
+
+app.use(
+    "/graphql",
+    graphqlHTTP({
+        schema: schema,
+        rootValue : root,
+        graphiql : true
+    })
+);
+
+//start server
+
+app.listen(3000,() => {
+    console.log("Server running at http://localhost:3000/graphql");
+});
